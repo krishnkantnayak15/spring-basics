@@ -1,7 +1,7 @@
 package com.allstate.models;
 import java.util.stream.Stream;
 
-public class Math {
+public class Maths {
 
      private static  int a=0;
      private  static  int b=1;

@@ -19,7 +19,7 @@ public class MathTest {
 
     @Test
     public void mathTest() throws Exception {
-        float result = Math.square(5);
+        float result = Maths.square(5);
         assertEquals(25 , result,0 );
     }
 }
