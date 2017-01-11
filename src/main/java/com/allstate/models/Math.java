@@ -2,6 +2,9 @@ package com.allstate.models;
 import java.util.stream.Stream;
 
 public class Math {
+
+     private static  int a=0;
+     private  static  int b=1;
     public static int square(int x){
         return x * x;
     }
@@ -13,4 +16,14 @@ public class Math {
 
 
     }
+     public static  int fibonacci(int index){
+         if(index == 0)
+             return 0;
+         else if(index == 1)
+             return 1;
+         else
+             return fibonacci(index-1)+fibonacci(index-2);
+     }
+
 }
+
